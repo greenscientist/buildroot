@@ -1,0 +1,5 @@
+config BR2_PACKAGE_EMB7010
+       bool "emb7010"
+       help
+         Placeholder project for UQAMs EMB7010 course
+         bla

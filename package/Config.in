@@ -2618,5 +2618,8 @@ menu "Text editors and viewers"
 	source "package/uemacs/Config.in"
 	source "package/vim/Config.in"
 endmenu
+menu "UQAM"
+        source "package/emb7010/Config.in"
+endmenu
 
 endmenu
