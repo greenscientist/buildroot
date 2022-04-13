@@ -3,14 +3,15 @@
 # rt-tests
 #
 ################################################################################
-
-RT_TESTS_SITE = $(BR2_KERNEL_MIRROR)/linux/utils/rt-tests
-RT_TESTS_SOURCE = rt-tests-$(RT_TESTS_VERSION).tar.xz
+RT_TESTS_SITE=package/rt-tests/src
+RT_TESTS_SITE_METHOD=local
+#RT_TESTS_SITE = $(BR2_KERNEL_MIRROR)/linux/utils/rt-tests
+#RT_TESTS_SOURCE = rt-tests-$(RT_TESTS_VERSION).tar.xz
 RT_TESTS_VERSION = 2.3
 RT_TESTS_LICENSE = GPL-2.0+
 RT_TESTS_LICENSE_FILES = COPYING
 
-RT_TESTS_DEPENDENCIES = numactl
+#4RT_TESTS_DEPENDENCIES = numactl
 RT_TESTS_CPE_ID_VENDOR = kernel
 
 define RT_TESTS_BUILD_CMDS
